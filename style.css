@@ -55,7 +55,17 @@ body {
 	height: 100vh;
 	margin: 0;
   }
-/* asdf */
-  .background {
-	height: fit-content;
-}
+
+  #main-title {
+	font-family: Helvetica;
+	font-weight: normal;
+	text-align: center;
+  }
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(14rem, 1fr));
+	grid-gap: 2em;
+	justify-items: center;
+	text-align: left;
+  }
