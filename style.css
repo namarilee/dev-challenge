@@ -6,12 +6,12 @@
 body {
 	background-image: url(Images/hive-shadow.png);
 	background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center bottom;
-  background-origin: content-box;
-  background-size: cover;
-
-
+  	background-attachment: fixed;
+  	background-position: center bottom;
+ 	background-origin: content-box;
+  	background-size: cover;
+	/* flex-direction: column; */
+	/* display: flex; */
 }
 
 .navbar {
@@ -49,22 +49,26 @@ body {
 
   #home {
 	display: flex;
-	justify-content: center;
+	position: relative;
 	align-items: center;
 	padding: 0 10vw; 
 	height: 100vh;
-	margin: 0;
   }
 
   #main-title {
 	font-family: Helvetica;
 	font-weight: normal;
-	text-align: center;
+	text-align: left;
+	margin-top: 10em;
+	margin-bottom: 15em;
+	position: absolute;
+	font-size: 48px;
   }
 
 .grid-container {
+	margin-top: 18em;
 	display: grid;
-	grid-template-columns: repeat(4, minmax(14rem, 1fr));
+	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 2em;
 	justify-items: center;
 	text-align: left;
