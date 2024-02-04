@@ -127,6 +127,10 @@ body {
 .connect-btn:hover {
 	background-color: #dadada;
 	transition: background-color 0.15s ease-in;
+}
+
+.connect-btn:active {
+	background-color: #dadada;
 
 }
   .action-btns {
