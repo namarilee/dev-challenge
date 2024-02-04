@@ -83,13 +83,34 @@ body {
 	border-color: #C8C8C8;
 	border-width: 1px;
 	border-radius: 8.9px;
-	padding: 2em;
-	h1, p {
+	padding: 1.5em;
+	h1 {
 		font-family: Helvetica;
-		font-weight: normal;
-		padding: 0em;
+		font-weight: 400;
+		margin-top: 1em;
 	}
+	p {
+		font-family: Helvetica;
+		font-weight: 300;
+		margin-top: 0.5em;
+	}
+  }
+
+  .app-icons {
+	height: 15%;
+	width: 15%;
+  }
+
+  .googledrive-icon {
+	height: 15%;
+	width: 15%;
+  }
+  .connect-btn {
+	fill: #FFFFFF;
 	
+	border-radius: 5px;
+	border-color: #C8C8C8;
+	padding: 0.5em 1em 0.5em 1em;
   }
 
   .horizontal {
@@ -97,3 +118,7 @@ body {
 	justify-content: space-between;
   }
 
+
+  .action-btns {
+	display: flex;
+  }
