@@ -10,7 +10,7 @@ body {
   	background-position: center bottom;
  	background-origin: content-box;
   	background-size: cover;
-	/* flex-direction: column; */
+	flex-direction: column;
 	/* display: flex; */
 }
 
@@ -51,7 +51,7 @@ body {
 
   #home {
 	display: flex;
-	position: relative;
+	/* flex-direction: column; */
 	align-items: center;
 	padding: 0 10vw; 
 	height: 100vh;
@@ -74,6 +74,7 @@ body {
 	grid-gap: 2em;
 	justify-items: center;
 	text-align: left;
+
   }
 
   .grid-item {
@@ -94,31 +95,41 @@ body {
 		font-weight: 300;
 		margin-top: 0.5em;
 	}
+	/* button {
+		fill: #ffffff;
+		box-shadow: none;
+		border-radius: 5px;
+		border-color: #C8C8C8;
+		padding: 0.5em 1em 0.5em 1em;
+	  } */
   }
 
   .app-icons {
 	height: 15%;
 	width: 15%;
   }
-
-  .googledrive-icon {
-	height: 15%;
-	width: 15%;
-  }
-  .connect-btn {
-	fill: #FFFFFF;
-	
-	border-radius: 5px;
-	border-color: #C8C8C8;
-	padding: 0.5em 1em 0.5em 1em;
-  }
-
+  
   .horizontal {
 	display: flex;
 	justify-content: space-between;
   }
 
+.connect-btn {
+	background-color: #ffffff;
+	box-shadow: none;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: #C8C8C8;
+	padding: 0.3em 1.7em 0.3em 1.7em;
+}
 
+.connect-btn:hover {
+	background-color: #dadada;
+	transition: background-color 0.15s ease-in;
+
+}
   .action-btns {
 	display: flex;
+	justify-content: left;
   }
