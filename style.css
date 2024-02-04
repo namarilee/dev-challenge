@@ -13,7 +13,6 @@ body {
  	background-origin: content-box;
   	background-size: cover;
 	flex-direction: column;
-	/* display: flex; */
 }
 
 .navbar {
@@ -29,9 +28,9 @@ body {
 	align-items: center;
 	padding: 0 10vw;
 	z-index: 10;
-  }
+}
 
-  .logo {
+.logo {
 	margin: 0.5rem 0;
 	a {
 		font-family: satoshi-bold;
@@ -39,27 +38,26 @@ body {
 		text-decoration: none;
 		color: #9730FF;
 	}
-  }
+}
 
-  .navbar-links ul {
+.navbar-links ul {
 	margin: 0;
 	padding: 0;
 	display: flex;
-  }
+}
   
-  .navbar-links li {
+.navbar-links li {
 	list-style: none;
-  }
+}
 
-  #home {
+#home {
 	display: block;
-	/* flex-direction: column; */
 	align-items: center;
 	padding: 0 10vw; 
 	height: 100vh;
-  }
+}
 
-  #main-title {
+#main-title {
 	font-family: Helvetica;
 	font-weight: normal;
 	text-align: left;
@@ -67,7 +65,7 @@ body {
 	margin-bottom: 1em;
 	position: relative;
 	font-size: 48px;
-  }
+}
 
 .grid-container {
 	margin-top: 4em;
@@ -76,11 +74,9 @@ body {
 	grid-gap: 2em;
 	justify-items: center;
 	text-align: left;
+}
 
-  }
-
-  .grid-item {
-
+.grid-item {
 	background-color: #FEF9F8;
 	border-style: solid;
 	border-color: #C8C8C8;
@@ -97,24 +93,17 @@ body {
 		font-weight: 300;
 		margin-top: 0.5em;
 	}
-	/* button {
-		fill: #ffffff;
-		box-shadow: none;
-		border-radius: 5px;
-		border-color: #C8C8C8;
-		padding: 0.5em 1em 0.5em 1em;
-	  } */
-  }
+}
 
-  .app-icons {
+.app-icons {
 	height: 15%;
 	width: 15%;
-  }
-  
-  .horizontal {
+}
+
+.horizontal {
 	display: flex;
 	justify-content: space-between;
-  }
+}
 
 .connect-btn {
 	background-color: #ffffff;
