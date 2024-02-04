@@ -50,6 +50,12 @@ body {
 	list-style: none;
 }
 
+#profile-img:hover {
+	cursor: pointer;
+	opacity: 80%;
+	transition: opacity 0.25s ease-in;
+}
+
 #home {
 	display: block;
 	align-items: center;
@@ -116,8 +122,9 @@ body {
 }
 
 .connect-btn:hover {
+	cursor: pointer;
 	background-color: #dadada;
-	transition: background-color 0.15s ease-in;
+	transition: background-color 0.25s ease-in;
 }
 
 .action-btns {
@@ -142,8 +149,9 @@ body {
 }
 
 #back-btn:hover {
+	cursor: pointer;
 	background-color: #dadada;
-	transition: background-color 0.15s ease-in;
+	transition: background-color 0.25s ease-in;
 }
 
 #finish-btn {
@@ -155,13 +163,15 @@ body {
 	border-width: 1px;
 	border-radius: 10px;
 	border-color: #1A1225;
-	padding: 0.8em 1.3em 0.8em 1.3em;
+	padding: 0.8em 1.7em 0.8em 1.7em;
 	color: #ffffff;
 	margin-bottom: 5em;
 
 }
 
 #finish-btn:hover {
+	cursor: pointer;
 	background-color: #7e7288;
-	transition: background-color 0.15s ease-in;
+	border-color: #7e7288;
+	transition: background-color 0.25s ease-in;
 }
