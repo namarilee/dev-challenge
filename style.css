@@ -49,6 +49,10 @@ body {
 .navbar-links li {
 	list-style: none;
 }
+#profile-img {
+	height: 85%;
+	width: 85%;
+}
 
 #profile-img:hover {
 	cursor: pointer;
